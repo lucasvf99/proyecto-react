@@ -1,0 +1,30 @@
+.nav-home {
+    float: left;
+    width: 100px;
+    text-align: center;
+    grid-area: 'home';
+    justify-self: start;
+}
+.nav-product {
+    float: left;
+    width: 100px;
+    text-align: start;
+    grid-area: 'product';
+    justify-self: start;
+}
+.nav-login-boton {
+    float: right;
+    float: inline-start;
+    grid-area: 'boton';
+    width: 100px;
+    justify-self: end;
+}
+.css-1t29gy6-MuiToolbar-root{
+    width: 100%;
+    display: grid !important;
+    grid-template-areas: 
+    'home product boton';
+    grid-template-columns: 10% 10% 80%;
+    padding: 0px !important;
+    
+}
